@@ -28,6 +28,8 @@ section > * {
   margin: 0 auto;
 }
 
+/* HERO SECTION */
+
 .hero-container {
   background-color: var(--hero-bg);
   color: var(--hero-text-main);
@@ -98,4 +100,35 @@ section > * {
   height: 230px;
   object-fit: cover;
   object-position: 50% 45%;
+}
+
+/* INFORMATION SECTION */
+
+.info-container {
+  padding: 48px 20px 108px;
+}
+
+.info-title {
+  text-align: center;
+  margin-bottom: 52px;
+  font-size: 36px;
+  font-weight: 900;
+  color: var(--hero-bg);
+}
+
+.info-figures {
+  display: flex;
+  gap: 48px;
+  width: min-content;
+  text-align: center;
+  color: #576067;
+}
+
+.info-img {
+  width: 165px;
+  height: 170px;
+  border: 4px solid var(--sub-bg);
+  border-radius: 15px;
+  margin-bottom: 8px;
+  object-fit: cover;
 }
