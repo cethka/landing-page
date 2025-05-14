@@ -49,6 +49,14 @@ section > * {
   a {  
     color: var(--hero-text-main);
   }
+
+  .meow {
+    color: orange;
+  }
+
+  .bark {
+    color: hotpink;
+  }
 }
 
 .nav {
@@ -206,4 +214,11 @@ footer {
   height: 96px;
   justify-content: center;
   align-items: center;
+  gap: 48px;
+}
+
+.self-credit {
+  padding: 8px 16px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
 }
