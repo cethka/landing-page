@@ -1,0 +1,101 @@
+/* * {
+  border: 1px solid red;
+} */
+
+/* The actual code starts below */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --hero-bg: #1f2937;
+  --sub-bg: #3882F6;
+  --hero-text-main: #f9faf8;
+  --hero-text-sec: #e5e7eb;
+  --content-max-width: 972px;
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+section > * {
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+}
+
+.hero-container {
+  background-color: var(--hero-bg);
+  color: var(--hero-text-main);
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 96px;
+}
+
+.logo {
+  font-size: 24px;
+  color: var(--hero-text-main);
+
+  a {  
+    color: var(--hero-text-main);
+  }
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+
+  ul {
+    display: flex;
+    gap: 24px;
+    font-size: 18px;
+  }
+
+  a {  
+      color: var(--hero-text-sec);
+  }
+}
+
+.hero {
+  display: flex;
+  gap: 48px;
+  margin-bottom: 96px;
+}
+
+.hero-content {
+  .hero-main {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 10px;
+  }
+  .hero-sub{
+    color: var(--hero-text-sec);
+    margin-bottom: 16px;
+  }
+}
+
+.btn {
+  padding: 8px 36px;
+  border: 0;
+  font-size: 18px;
+  border-radius: 10px;
+  background-color: var(--sub-bg);
+  color: var(--hero-text-main);
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.hero-img > img {
+  width: 520px;
+  height: 230px;
+  object-fit: cover;
+  object-position: 50% 45%;
+}
