@@ -132,3 +132,31 @@ section > * {
   margin-bottom: 8px;
   object-fit: cover;
 }
+
+/* QUOTE SECTION */
+
+.quote-container {
+  background-color: var(--hero-text-sec);
+  display: flex;
+  justify-content: center;
+  padding: 128px 20px 84px;
+  color: var(--hero-bg);
+
+  blockquote {
+    max-width: 768px;
+  }
+
+  .quote-text {
+    font-size: 36px;
+    font-weight: 200;
+    margin-bottom: 8px;
+  }
+
+  .quotee {
+    text-align: end;
+    font-size: 24px;
+    font-weight: 700;
+    margin-right: 32px;
+  }
+}
+
