@@ -113,7 +113,7 @@ section > * {
 /* INFORMATION SECTION */
 
 .info-container {
-  padding: 48px 20px 108px;
+  padding: 48px 20px 96px;
 }
 
 .info-title {
@@ -152,7 +152,7 @@ section > * {
   background-color: var(--hero-text-sec);
   display: flex;
   justify-content: center;
-  padding: 128px 20px 84px;
+  padding: 108px 20px 96px;
   color: var(--hero-bg);
 
   blockquote {
@@ -176,7 +176,7 @@ section > * {
 /* CTA SECTION */
 
 .cta-container {
-  padding: 96px 20px;
+  padding: 92px 20px;
   color: var(--hero-text-main);
 
   .cta-card {
@@ -211,7 +211,7 @@ footer {
   background-color: var(--hero-bg);
   color: var(--hero-text-main);
   display: flex;
-  height: 96px;
+  height: 108px;
   justify-content: center;
   align-items: center;
   gap: 48px;
