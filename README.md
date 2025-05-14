@@ -9,3 +9,7 @@ Landing page mockup for an imaginary pet café
 - Photo by Valeria Boltneva from Pexels: https://www.pexels.com/photo/ brown-and-white-short-coated-puppy-1805164/
 - Photo by Chevanon Photography from Pexels: https://www.pexels.com/photo/close-up-of-coffee-cup-on-table-312418/
 - Photo by Element5 Digital from Pexels: https://www.pexels.com/photo/assorted-books-on-book-shelves-1370295/
+
+## Disclaimer
+
+The other contributor is my other account. I've just realized that I have been doing all of my commits for this project with this other account of mine lmao.
