@@ -1,6 +1,6 @@
 # Landing Page
 
-Landing page mockup for an imaginary pet café
+Landing page mockup for an imaginary pet café.
 
 ## Images Used
 
@@ -12,4 +12,4 @@ Landing page mockup for an imaginary pet café
 
 ## Disclaimer
 
-The other contributor is my other account. I've just realized that I have been doing all of my commits for this project with this other account of mine lmao.
+The other contributor is my other account. Turns out I had been doing most of the commits for this project with this other account of mine.
